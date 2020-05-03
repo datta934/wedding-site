@@ -1,0 +1,82 @@
+@media only screen and (max-width: 990px) {
+  .main-timeline .timeline {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-timeline .timeline-icon {
+    padding-top: 0;
+  }
+  .main-timeline .timeline:nth-child(2n) .timeline-icon {
+    padding-bottom: 0;
+  }
+  .main-timeline .border {
+    margin-bottom: 10px;
+  }
+  .main-timeline .timeline:nth-child(2n) .border {
+    margin: 10px 0 0 0;
+  }
+  .main-timeline .timeline-content {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+  /* put your css styles in here */
+  .first-row {
+    height: 30vh;
+  }
+  .banner-container {
+    height: 38%;
+  }
+  .border-containers img {
+    width: 25%;
+  }
+}
+@media all and (min-width: 769px) {
+  .first-row {
+    height: 80vh;
+  }
+  .banner-container {
+    height: 100%;
+  }
+}
+@media all and (min-width: 1024px) {
+  .banner-container {
+    height: 52%;
+  }
+  .first-row {
+    height: 48vh;
+  }
+}
+@media all and (min-width: 1366px) {
+  .banner-container {
+    height: 85%;
+  }
+  .first-row {
+    height: 80vh;
+  }
+}
+
+#wedding-date.yellow {
+  background: rgba(255, 177, 66, 1);
+  box-shadow: 0 0 0 0 rgba(255, 177, 66, 1);
+  animation: pulse-yellow 2s infinite;
+}
+
+@keyframes pulse-yellow {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 177, 66, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 177, 66, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 177, 66, 0);
+  }
+}
