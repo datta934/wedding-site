@@ -28,7 +28,7 @@ $(document).ready(function () {
         if (distance < 0) {
             clearInterval(x);
             $("#save-the-date, #hide-text").addClass("hide");
-            document.getElementById("wedding-date").innerHTML = "Can't keep calm! It's our wedding today!";
+            document.getElementById("wedding-date").innerHTML = "We are married!";
         }
     });
 });
